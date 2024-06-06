@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+/* Estilo para el enlace activo */
+.nav-link.active {
+  font-weight: bold;
+  color: #f8f9fa !important;
+  background-color: #343a40;
+  border-radius: 4px;
+}
+
+/* Estilo para el enlace al pasar el ratón */
+.nav-link:hover {
+  color: #adb5bd !important;
+}
+
+/* Espaciado entre los elementos de navegación */
+.navbar-nav .nav-item + .nav-item {
+  margin-left: 1rem;
+}
+
+/* Centrar el contenido de la barra de navegación */
+.navbar-nav {
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Ajustes adicionales para asegurar que el contenido esté centrado */
+.navbar-collapse {
+  justify-content: center;
+}

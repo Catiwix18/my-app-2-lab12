@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let post of posts" (click)="goToDetails(post.id)">
+    {{ post.title }}
+  </li>
+</ul>
